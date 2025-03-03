@@ -12,7 +12,7 @@ boolean hasElevator (наличие лифта).
 Если есть лифт, цена увеличивается на 5%.
  */
 
-public class Apartment extends Property {
+public class Apartment implements Property {
 
     private String address; // адрес
     private int floor; // этажт

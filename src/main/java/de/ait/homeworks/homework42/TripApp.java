@@ -1,4 +1,4 @@
-package de.ait.homeworks.homework42;
+/*package de.ait.homeworks.homework42;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.util.List;
 
 @Slf4j
-public class TripApp {
+/*public class TripApp {
     public static void main(String[] args) {
         Path path = Path.of("homework42/travel_route.txt");
         try{
@@ -19,3 +19,5 @@ public class TripApp {
         }
     }
 }
+*/
+

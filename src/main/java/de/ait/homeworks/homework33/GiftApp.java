@@ -93,13 +93,13 @@ public class GiftApp {
         System.out.println("Select the status (AVAILABLE, OUT_OF_STOCK, RESERVED, DELIVERED): ");
         String giftStatus = sc.nextLine().trim();
 
-        Gift gift = new Gift(giftname, GiftCategory.valueOf(giftCategory), GiftStatus.valueOf(giftStatus))
+        Gift gift = new Gift(giftname, GiftCategory.valueOf(giftCategory), GiftStatus.valueOf(giftStatus));
 
 
     }
 
     private static void showMenu() {
-        System.out.println() "\nWelcome to the Gift Management System!";
+        System.out.println( "\nWelcome to the Gift Management System!");
         System.out.println("Choose an action:");
         System.out.println("1 - Add a new gift");
         System.out.println("2 - Show all gifts");
